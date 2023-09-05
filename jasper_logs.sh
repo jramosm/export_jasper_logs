@@ -11,9 +11,9 @@ cd $jasperLogs4DownloadDirectory && \
 (
   ## Zip the files modified in last 2 days.
   zip jasper_logs-$currentDate.zip $(find $jasperDirectory/apache-tomcat/logs -mtime -2) 
-  echo ' '
-  echo 'Download ZIP from http://$webInterface:$webPort'
-  echo ' '
+  echo " "
+  echo "Download ZIP from http://$webInterface:$webPort"
+  echo " "
 
   #### For python3 uncomment next line
   # python3 -m http.server --bind $webInterface $webPort
