@@ -1,0 +1,10 @@
+## Path to jasperreport directory
+jasperDirectory=/var/jasperreports-server-cp-6.3.0
+## Path to directory where put the ZIP to download
+jasperLogs4DownloadDirectory=$jasperDirectory/Logs4DownloadDirectory
+## For sufix filename
+currentDate=`date +%Y%m%d%H%M`
+## Interface for python web server
+webInterface=10.9.1.1
+## port for python web server
+webPort='8099'
